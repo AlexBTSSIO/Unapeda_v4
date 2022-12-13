@@ -421,24 +421,29 @@ main section{
     justify-content:left;
     position:absolute;
     left: 35px;
-    top: 52.5rem;
+    top: 50rem;
     min-height: 100vh;
     /* background-color: #9b59b6; */
 }
 main section .bloc{
-    position: absolute;
+    /* position: absolute; */
     left: 8px;
-    top: 65rem;
+    /* top: 60rem;   */
 }
 main section .bloc h4{
     font-size:larger;
     font-weight:900;
     margin-bottom: 2rem;
     text-decoration: underline;
+    position: absolute;
+    top: 15rem ;
+    width: 500px;
 }
 main section .bloc p{
     text-align: left;
     width: 500px;
+    position: absolute;
+    top: 35rem;
    
 }
 main section .bloc img{
@@ -447,9 +452,9 @@ main section .bloc img{
     width: 160px;
     border-radius: 1rem;
     left: 15rem;
-    /* top: 70rem; */
+    top: 19rem;
 }
-.wrapper{
+main section .wrapper{
     width: 450px;
     background-color: #fff;
     border-radius: 1rem;
@@ -458,6 +463,8 @@ main section .bloc img{
     border-color:black;
  
     border-color: #222;
+    position: absolute;
+    top:55rem;
 }
 .wrapper header{
     display: flex;
